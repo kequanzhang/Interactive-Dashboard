@@ -24,45 +24,10 @@
 
 所有比赛的主客场胜率，红色是主场，蓝是平，黄是客场。
 ![捕获](https://user-images.githubusercontent.com/87868159/208112157-65a8931e-0eda-4a8c-a3a5-4f897a625fdf.PNG)
-实现代码如下：
-import pandas as pd
-from collections import Counter
-df=pd.read_csv('C:/Users/25433/Desktop/ginf.csv',encoding='ISO-8859-1')
-a=df['abc']
-print(Counter(a))
-import matplotlib.pyplot as plt
-Num = 10112
-data=[4649,2890,2573]
-labels=['odd_h','odd_a','odd_d']
-colors=['red','yellow','blue']
-sizes = [data[0]/Num*100,data[1]/Num*100,data[2]/Num*100]
-expodes = (0,0,0)
-plt.pie(sizes,explode=expodes,labels=labels,shadow=True,colors=colors)
-plt.axis('equal')
-plt.savefig('pictureep3/fig3.png')
-plt.show()
 
 
 反应所有比赛每场赔率最高的赢是蓝色，最低是红色，中间赔率是黄色。
 ![捕获(1)](https://user-images.githubusercontent.com/87868159/208112200-0a33d978-1473-4882-82ba-8d2db6fa1477.PNG)
-实现代码如下：
-import pandas as pd
 
-from collections import Counter
-df=pd.read_csv('C:/Users/25433/Desktop/ginf.csv',encoding='ISO-8859-1')
-a=df['end_']
-a
-print(Counter(a))
-import matplotlib.pyplot as plt
-Num = 10112
-data=[5390,2631,2091]
-labels=['min','mid','nax']
-colors=['red','yellow','blue']
-sizes = [data[0]/Num*100,data[1]/Num*100,data[2]/Num*100]
-expodes = (0,0,0)
-plt.pie(sizes,explode=expodes,labels=labels,shadow=True,colors=colors)
-plt.axis('equal')
-plt.savefig('pictureep3/fig3.png')
-plt.show()
 
 
