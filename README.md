@@ -47,6 +47,7 @@ plt.show()
 ![捕获(1)](https://user-images.githubusercontent.com/87868159/208112200-0a33d978-1473-4882-82ba-8d2db6fa1477.PNG)
 实现代码如下：
 import pandas as pd
+
 from collections import Counter
 df=pd.read_csv('C:/Users/25433/Desktop/ginf.csv',encoding='ISO-8859-1')
 a=df['end_']
