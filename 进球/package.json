@@ -1,0 +1,14 @@
+{
+  "name": "4163994f4fcc967d",
+  "main": "4163994f4fcc967d@32.js",
+  "version": "32.0.0",
+  "homepage": "https://observablehq.com/d/4163994f4fcc967d",
+  "author": {
+    "name": "计羽 刘",
+    "url": "https://observablehq.com/@251602623"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
